@@ -6,8 +6,8 @@
     --content-background: #fff5f5;
     --hover-color: #f7c8cd;
     --button-hover: #d68892;
-    --font-primary: 'Arial', sans-serif;
-    --font-secondary: 'Georgia', serif;
+    --font-primary: 'Poppins','Arial', sans-serif;
+    --font-secondary: 'Playfair Display','Georgia', serif;
 }
 
 body {
