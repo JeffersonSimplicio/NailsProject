@@ -8,79 +8,84 @@
       content="Manicure especializada em unhas naturais em Itabaiana-PB. Atendimento a domicílio com esmaltação impecável. Veja meu portfólio e agende seu horário!"
     />
     <title>Ivanilda Manicure - Portfólio</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Ivanilda Manicure</h1>
-      <p>Unhas perfeitas com muito carinho!</p>
-    </header>
+    <main id="container">
+      <header>
+        <h1>Ivanilda Manicure</h1>
+        <p>Unhas perfeitas com muito carinho!</p>
+      </header>
 
-    <nav>
-      <ul>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#gallery">Galeria</a></li>
-        <li><a href="#pricing">Preços</a></li>
-        <li><a href="#testimonials">Depoimentos</a></li>
-      </ul>
-    </nav>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#pricing">Preços</a></li>
+          <li><a href="#testimonials">Depoimentos</a></li>
+        </ul>
+      </nav>
 
-    <section id="about">
-      <h2>Sobre Mim</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad accusantium
-        provident, eum cumque, numquam porro est suscipit deserunt animi,
-        sapiente repellendus consequatur. Sunt dolorum autem temporibus ea
-        incidunt magni laborum?
-      </p>
-    </section>
+      <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+          accusantium provident, eum cumque, numquam porro est suscipit deserunt
+          animi, sapiente repellendus consequatur. Sunt dolorum autem temporibus
+          ea incidunt magni laborum?
+        </p>
+      </section>
 
-    <section id="gallery">
-      <h2>Meu Trabalho</h2>
-      <!-- Imagens de exemplo, substituir pelas reais o quanto antes -->
-      <img src="https://picsum.photos/400" alt="Unha 1" />
-      <img src="https://picsum.photos/400" alt="Unha 2" />
-      <img src="https://picsum.photos/400" alt="Unha 3" />
-    </section>
+      <section id="gallery">
+        <h2>Meu Trabalho</h2>
+        <!-- Imagens de exemplo, substituir pelas reais o quanto antes -->
+        <img src="https://picsum.photos/400" alt="Unha 1" />
+        <img src="https://picsum.photos/400" alt="Unha 2" />
+        <img src="https://picsum.photos/400" alt="Unha 3" />
+      </section>
 
-    <section id="pricing">
-      <h2>Serviços e Preços</h2>
-      <ul>
-        <li>Pé ou Mão: R$ 20,00</li>
-        <li>Pé e Mão: R$ 40,00</li>
-      </ul>
-      <p>Atendimento apenas com agendamento em Itabaiana-PB.</p>
-      <p>Pagamento em dinheiro ou PIX.</p>
-    </section>
+      <section id="pricing">
+        <h2>Serviços e Preços</h2>
+        <ul>
+          <li>Pé ou Mão: R$ 20,00</li>
+          <li>Pé e Mão: R$ 40,00</li>
+        </ul>
+        <p>Atendimento apenas com agendamento em Itabaiana-PB.</p>
+        <p>Pagamento em dinheiro ou PIX.</p>
+      </section>
 
-    <section id="testimonials">
-      <h2>O que dizem minhas clientes</h2>
-      <p>
-        "Amei o cuidado da Ana, minhas unhas nunca estiveram tão lindas!" -
-        Maria S.
-      </p>
-      <p>"Serviço impecável e super atenciosa!" - Juliana P.</p>
-    </section>
+      <section id="testimonials">
+        <h2>O que dizem minhas clientes</h2>
+        <p>
+          "Amei o cuidado da Ana, minhas unhas nunca estiveram tão lindas!" -
+          Maria S.
+        </p>
+        <p>"Serviço impecável e super atenciosa!" - Juliana P.</p>
+      </section>
 
-    <section id="actions">
-      <button class="share-btn" onclick="sharePortfolio()">Compartilhar</button>
-      <button class="schedule-btn" onclick="scheduleAppointment()">
-        Agendar
-      </button>
-    </section>
+      <section id="actions">
+        <button class="share-btn" onclick="sharePortfolio()">
+          Compartilhar
+        </button>
+        <button class="schedule-btn" onclick="scheduleAppointment()">
+          Agendar
+        </button>
+      </section>
 
-    <footer>
-      <p>Feito com 💖 por sua manicure favorita</p>
-      <small>
-        Design e desenvolvimento por
-        <strong>
-          <a href="https://github.com/JeffersonSimplicio" target="_blank">
-            Jefferson Simplicio
-          </a>
-        </strong>
-      </small>
-    </footer>
+      <footer>
+        <p>Feito com 💖 por sua manicure favorita</p>
+        <small>
+          Design e desenvolvimento por
+          <strong>
+            <a href="https://github.com/JeffersonSimplicio" target="_blank">
+              Jefferson Simplicio
+            </a>
+          </strong>
+        </small>
+      </footer>
+    </main>
   </body>
   <script src="scripts/scheduleAppointment.js"></script>
   <script src="scripts/sharePortfolio.js"></script>
