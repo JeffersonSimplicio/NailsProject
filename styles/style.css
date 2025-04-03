@@ -28,3 +28,32 @@ h2 {
     color: #d68b95;
     margin-top: 30px;
 }
+
+nav {
+    background-color: #f7d7da;
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c4033;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d68b95;
+}
