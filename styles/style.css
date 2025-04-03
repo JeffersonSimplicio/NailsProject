@@ -85,3 +85,31 @@ h2 {
     margin-top: 0;
     font-size: 1.8em;
 }
+
+#gallery {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#gallery h2 {
+    margin-bottom: 20px;
+}
+
+#gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#gallery-images img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #fce4e7;
+    transition: transform 0.3s ease;
+}
+
+#gallery-images img:hover {
+    transform: scale(1.05);
+}
