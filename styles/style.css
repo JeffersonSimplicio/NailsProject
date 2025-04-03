@@ -164,3 +164,22 @@ button {
 #schedule-btn:hover {
     background-color: #d68892;
 }
+
+footer {
+    background-color: #fce4e7;
+    padding: 15px 0;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7a5a50;
+}
+
+footer a {
+    color: #e89ca5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
