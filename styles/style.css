@@ -60,3 +60,28 @@ nav a {
 nav a:hover {
     color: #e89ca5;
 }
+
+#content {
+    background-color: #fff5f5;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+section {
+    background-color: transparent;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #e89ca5;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #e89ca5;
+    font-family: 'Georgia', serif;
+    margin-top: 0;
+    font-size: 1.8em;
+}
