@@ -225,3 +225,30 @@ footer a:hover {
         width: 100%;
     }
 }
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    header, nav, footer {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    nav ul {
+        gap: 0.75rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+}
