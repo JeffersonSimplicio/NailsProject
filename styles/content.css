@@ -1,0 +1,15 @@
+#content {
+    background-color: var(--content-background);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 0.1rem solid var(--primary-color);
+}
+
+section:last-child {
+    border-bottom: none;
+}

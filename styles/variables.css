@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #e89ca5;
+    --secondary-color: #5a3e36;
+    --background-color: #f9ecea;
+    --light-background: #fce4e7;
+    --content-background: #fff5f5;
+    --hover-color: #f7c8cd;
+    --button-hover: #d68892;
+    --font-primary: 'Poppins','Arial', sans-serif;
+    --font-secondary: 'Playfair Display','Georgia', serif;
+}
