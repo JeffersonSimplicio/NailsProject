@@ -39,6 +39,8 @@ Sinta-se à vontade para contribuir com melhorias no projeto. Basta abrir uma _i
 
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
+**As imagens utilizadas neste repositório são de propriedade do autor ou foram cedidas exclusivamente para este projeto e NÃO estão cobertas pela licença MIT. É proibido reutilizá-las, redistribuí-las ou publicá-las sem permissão.**
+
 ---
 
 Desenvolvido por [JeffersonSimplicio](https://github.com/JeffersonSimplicio)
